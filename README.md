@@ -65,4 +65,4 @@ git clone -b 14 git@gitlab.com:kibria5/vendor_xiaomi_miuicamera-sapphire.git ven
 
 # Credits and thanks
 
-- @kibria5
+- [kibria5](https://github.com/kibria5)
