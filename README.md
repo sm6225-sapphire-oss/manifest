@@ -6,14 +6,18 @@
 ```sh
 git clone -b 14.0 git@github.com:sm6225-sapphire-oss/device_xiaomi_sapphire.git device/xiaomi/sapphire
 ```
+3. Clone kernel tree
 
-2. Clone vendor tree
+```sh
+git clone -b 14 git@github.com:sm6225-sapphire-oss/device_xiaomi_sapphire-kernel.git device/xiaomi/sapphire-kernel
+```
+4. Clone vendor tree
 
 ```sh
 git clone -b 14 git@github.com:sm6225-sapphire-oss/vendor_xiaomi_sapphire.git vendor/xiaomi/sapphire
 ```
 
-3. Replace stock components with components from our repositories
+5. Replace stock components with components from our repositories
 
 ```sh
 rm -rf device/qcom/sepolicy_vndr/sm6225
@@ -50,7 +54,7 @@ rm -rf hardware/xiaomi
 git clone git@github.com:sm6225-sapphire-oss/hardware_xiaomi.git hardware/xiaomi
 ```
 
-4. Include MiuiCamera (optional)
+6. Include MiuiCamera (optional)
 
 ```sh
 rm -rf device/xiaomi/miuicamera-sapphire
@@ -60,8 +64,8 @@ rm -rf vendor/xiaomi/miuicamera-sapphire
 git clone -b 14 git@gitlab.com:kibria5/vendor_xiaomi_miuicamera-sapphire.git vendor/xiaomi/miuicamera-sapphire
 ```
 
-5. Build rom!!!
-6. Fix bug, include productivity and contribute to the overall project!!!
+7. Build rom!!!
+8. Fix bug, include productivity and contribute to the overall project!!!
 
 # Credits and thanks
 
