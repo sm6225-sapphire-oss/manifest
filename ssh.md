@@ -2,7 +2,6 @@
 
 1. Initialize and sync firmware repo
 2. Clone device tree
-   (It is recommended to use [ssh](./ssh.md))
 
 ```sh
 git clone -b 14.0 https://github.com/sm6225-sapphire-oss/device_xiaomi_sapphire.git device/xiaomi/sapphire
